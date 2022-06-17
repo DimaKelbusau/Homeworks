@@ -1,0 +1,31 @@
+.top {
+    background: url(./img/top.png) repeat-x top;
+}
+.bottom {
+    background: url(./img/bot.png) repeat-x bottom;
+}
+
+.left {
+    background: url(./img/left.png) repeat-y left;
+}
+
+.right {
+    background: url(./img/right.png) repeat-y right;
+}
+.topleft {
+    background:  url(./img/leftTop.png) no-repeat top left;
+}
+
+.topright {
+background: url(./img/rightTop.png) no-repeat top right;
+}
+
+.leftbot {
+    background: url(./img/leftBot.png) no-repeat bottom left;
+}
+
+.rightbot {
+    background: url(./img/rightBot.png) no-repeat bottom right;
+    padding: 50px;
+    font-size: 20px;
+}
