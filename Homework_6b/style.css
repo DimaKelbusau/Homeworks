@@ -1,0 +1,15 @@
+tr:nth-child(odd) td:nth-child(even), tr:nth-child(even) td:nth-child(odd) {
+    background: #ffffff;
+}
+
+table {
+    margin: 50px;
+    background: #000000;
+    border: 25px outset #05ff7e;
+    border-radius: 12px;
+}
+
+td {
+    width: 60px;
+    height: 60px;
+}
