@@ -26,7 +26,6 @@ a:hover {
     padding-left: 0;
 }
 
-
 .way-3 li:not(:first-child):before {
     content: '|';
     color: #ff0000;
