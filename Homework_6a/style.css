@@ -1,0 +1,34 @@
+li {
+    display: inline;
+    padding-left: 10px;
+}
+
+a {
+    color: #008000;
+}
+
+a:hover {
+    color: #ff0000;
+}
+
+.way-1 li+li {
+    border-left: 2px dotted #ff0000;
+    margin-left: 10px;
+}
+
+.way-2 li {
+    border-left: double 2px #ff0000;
+    margin-left: 10px;
+}
+
+.way-2 li:first-child {
+    border: none;
+    padding-left: 0;
+}
+
+
+.way-3 li:not(:first-child):before {
+    content: '|';
+    color: #ff0000;
+    margin-right: 10px;
+}
