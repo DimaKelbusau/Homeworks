@@ -1,0 +1,59 @@
+ body {
+     margin: 0px;
+ }
+
+ .header,
+ .footer {
+     text-align: center;
+     padding: 20px;
+     background-color: rgb(109, 181, 240);
+     text-transform: uppercase;
+     color: rgb(14, 14, 161);
+     font-size: 30px;
+     position: fixed;
+     width: 100%;
+ }
+
+ .menu {
+     position: fixed;
+     left: 0px;
+     top: 74px;
+     background-color: rgb(226, 188, 91);
+     width: 220px;
+     height: 100%;
+     overflow-x: hidden;
+     font-size: 17px;
+ }
+
+ .football {
+     text-transform: uppercase;
+     font-weight: bold;
+     text-align: center;
+     padding: 30px;
+     font-size: 30px;
+ }
+
+ .win {
+     float: left;
+     padding: 10px;
+ }
+
+ .content {
+     margin-left: 180px;
+     font-size: 15px;
+     line-height: 1;
+     padding-top: 75px;
+     padding-left: 50px;
+ }
+
+ .footer {
+     bottom: 0px;
+     left: 0px;
+     width: 100%;
+ }
+
+ .text-1,
+ .text-2 {
+     font-size: 25px;
+     padding-left: 7px;
+ }
